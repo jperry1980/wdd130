@@ -23,7 +23,7 @@ h1 {
 
 article {
   position: absolute;
-  top: 50%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -55,8 +55,14 @@ p {
     width: 100%;
     height: auto;
     padding: 5px;
-}   
-*/
+}
+*/    
+article img {
+    position: relative;
+    float: right;
+    height: 100px;
+}    
+
 .hero img {
     float: right;
 	width: 100%;
