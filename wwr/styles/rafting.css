@@ -1,8 +1,8 @@
 :root {
-    --primary-color: B4B8AB;
-    --secondary-color: eef0eb;
-    --accent1: F4F9E9;
-    --accent2: 153243;
+    --primary-color: #B4B8AB;
+    --secondary-color: #eef0eb;
+    --accent1: #F4F9E9;
+    --accent2: #153243;
     --heading-font: Roboto;
     --text-font: Montserrat;
 }
