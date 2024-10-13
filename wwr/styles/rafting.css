@@ -125,20 +125,28 @@ section p {
     display: grid;
     grid-template-columns: 2fr 2fr;
 }    
-
-section img {
-    max-width: 100px;
-}
-
-
-    
-/* Class Selectors */
-
-figcaption {
-    position: absolute;
-    color: white;
-    font-size: larger;
-}
+*/
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  figure img {
+    max-width: 220px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
 
 footer {
     position: relative;
