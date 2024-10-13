@@ -134,6 +134,12 @@ section img {
     
 /* Class Selectors */
 
+figcaption {
+    position: absolute;
+    color: white;
+    font-size: larger;
+}
+
 footer {
     position: relative;
     text-align: center;
