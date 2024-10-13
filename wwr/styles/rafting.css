@@ -126,6 +126,10 @@ section p {
     grid-template-columns: 2fr 2fr;
 }    
 */
+
+section {
+    background-color: var(--primary-color);
+}
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
@@ -133,6 +137,7 @@ figure {
     padding: 5px;
     max-width: 220px;
     margin: auto;
+    background-color: var(--secondary-color);
   }
   
   figure img {
