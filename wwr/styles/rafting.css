@@ -86,11 +86,18 @@ main {
 }
 /* new code */
 .history {
-    display: grid;
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: auto;
+    margin: auto;
+    background-color: var(--secondary-color);
+    /*display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-gap: 2rem;
     padding: 2rem;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color);*/
 }
 
 .history h2 {
