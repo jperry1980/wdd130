@@ -122,7 +122,6 @@ main {
 }
 
 .map {
-    padding: 0 350px;
     background-color: var(--primary-color);
 }
 
@@ -130,6 +129,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 3rem;
+    padding: 25px 350px;
 }
 
 section {
