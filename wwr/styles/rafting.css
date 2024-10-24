@@ -290,3 +290,9 @@ button:hover {
 .trips h3 {
     font-size: x-large;
 }
+
+.table {
+        width: 100%;
+        padding: 2rem;
+        text-align: center;
+}
