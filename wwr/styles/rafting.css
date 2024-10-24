@@ -47,7 +47,7 @@ main {
     position: absolute;
     text-align: center;
     top: 1rem;
-    margin-left: 300px;
+    margin-left: 350px;
     background-color: rgba(12, 12, 12, 0.3);
     color: white;
 }
@@ -263,4 +263,30 @@ button:hover {
 
 .contact3 {
     margin: 0.5rem 0;
+}
+
+.call-to-action {
+    background-color: #fff;
+}
+
+.call {
+    font-size: xx-large;
+}
+
+.trips {
+    padding: 2rem;
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.trips h2 {
+    text-align: center;
+    grid-column: 1/4;
+    font-size: xx-large;
+}
+
+.trips h3 {
+    font-size: x-large;
 }
