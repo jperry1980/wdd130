@@ -137,7 +137,7 @@ section {
 }
 
 figure {
-    border: thin #c0c0c0 solid;
+    border: thin var(--accent1) solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
@@ -147,7 +147,7 @@ figure {
   }
 
 figcaption {
-    background-color: #222;
+    background-color: var(--accent2);
     color: #fff;
     font: italic smaller sans-serif;
     padding: 3px;
@@ -161,7 +161,7 @@ footer {
 	margin: 1rem;
 	border-top: 1px solid #000;
 	padding: 0.5rem;
-	color: navy;
+	color: var(--accent2);
 	font-weight: 700;
 	font-style: italic;
 }
@@ -203,7 +203,7 @@ fieldset {
 
 legend {
     padding: 0.5rem;
-    color: navy;
+    color: var(--accent2);
     font-size: 1.3em;
 }
 
@@ -236,7 +236,7 @@ input[type="radio"] {
 
 button {
     margin: 1rem;
-    background-color: navy;
+    background-color: var(--accent2);
     color: #fff;
     border: none;
     border-radius: 0.5rem;
@@ -245,7 +245,7 @@ button {
 }
 
 button:hover {
-    background-color: darkgreen;
+    background-color: var(--secondary-color);
 }
 
 .form-item {
