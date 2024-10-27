@@ -34,7 +34,8 @@ header nav {
     font-size: large;
 }
 
-header nav a {    
+header nav a {
+    color: #000;    
     /*background-color: var(--primary-color);*/
     padding: 1rem 1rem;
 }
