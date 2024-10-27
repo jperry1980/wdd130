@@ -296,4 +296,5 @@ button:hover {
         width: 100%;
         padding: 2rem;
         text-align: center;
+        background-color: var(--primary-color);
 }
